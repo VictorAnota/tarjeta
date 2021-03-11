@@ -11,29 +11,54 @@
 
 </head>
 <body>
-	<div id="container">
-		<div id="tarjeta">
-			<section id="cabeza" class="barras">
-				<h1>Desarrollador web</h1>
-			</section>
-			<article id="central">
-				<img src="otro.jpg" alt="" id="img_fondo">
-				<div id="form">
-					<p>Nombre</p>
-					<p>Web</p>
-					<p>Correo</p>
-				</div>
-			</article>
-			<section id="pie" class="barras">
-					<ul class="redes">
-						<li><a href="#"><i class="fab fa-facebook-square" class="fonts"></i></a></li>
-						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
-					</ul>
-			</section>
+	<div class="contenedor">
+		<div class="fila">
 
+			<div id="form" class="col-lg-3 col-md-3 col-sm-12">
+				<form action="" id="campos">
+					<label for="nombre" class="atras">Nombre:</label><br>
+					<input type="text" id="nombre" name="nombre"><br>
+
+					<label for="web" class="atras">Web:</label><br>
+					<input type="text" id="web" name="web"><br>
+
+					<label for="email" class="atras">Email:</label><br>
+					<input type="text" id="email" name="email"><br>
+
+					<input type="submit" value="Enviar">
+				</form>
+			</div>
+
+			<div class="col-lg-6 col-md-6 col-sm-12" id="tarjeta">
+
+				<section id="cabeza" class="fila col-lg-12 barras">
+					<h1>Desarrollador web</h1>
+				</section>
+
+
+				<article id="central" class="fila col-lg-12 col-md-12 col-sm-12">
+					<div class="fila_img">
+					<img src="otro.jpg" alt="" id="img_fondo" class="col-lg-4 col-sm-12">
+					</div>
+					<div id="contacto" class="col-lg-8 col-sm-12 fila2">
+						<p>Nombre</p>
+						<p>Web</p>
+						<p>Correo</p>
+					</div>
+				</article>
+
+
+
+				<section id="pie" class="fila col-lg-12 col-md-12 barras col-sm-12">
+						<ul class="fila redes">
+							<center><li class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><a href="#"><i class="fab fa-facebook-square" class="fonts"></i></a></li></center>
+							<center><li class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><a href="#"><i class="fab fa-twitter"></i></a></li></center>
+							<center><li class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><a href="#"><i class="fab fa-instagram-square"></i></a></li></center>
+						</ul>
+				</section>
+			</div>
+			<div class="col-lg-3 col-md-3"></div>
 		</div>
 	</div>
-	
 </body>
 </html>
