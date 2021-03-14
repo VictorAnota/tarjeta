@@ -14,16 +14,19 @@
 	<div class="contenedor">
 		<div class="fila">
 
-			<div id="form" class="col-lg-3 col-md-3 col-sm-12">
-				<form action="" id="campos">
+			<div id="form" class="col-lg-3 col-md-3 col-sm-12" >
+				<form action="#" id="form" onsubmit="return false" >
 					<label for="nombre" class="atras">Nombre:</label><br>
 					<input type="text" id="nombre" name="nombre"><br>
+					<span id="#error_nom"></span><br>
 
 					<label for="web" class="atras">Web:</label><br>
 					<input type="text" id="web" name="web"><br>
+					<span id="#error_web"></span><br>
 
 					<label for="email" class="atras">Email:</label><br>
 					<input type="text" id="email" name="email"><br>
+					<span id="#error_email"></span><br>
 
 					<input type="submit" value="Enviar">
 				</form>
@@ -41,9 +44,15 @@
 					<img src="otro.jpg" alt="" id="img_fondo" class="col-lg-4 col-sm-12">
 					</div>
 					<div id="contacto" class="col-lg-8 col-sm-12 fila2">
-						<p>Nombre</p>
-						<p>Web</p>
-						<p>Correo</p>
+						<p id="nombre_p">
+							Nombre: <span></span>
+						</p>
+						<p id="web_p">
+							Web: <span></span>
+						</p>
+						<p id="email_p">
+							Correo: <span></span>
+						</p>
 					</div>
 				</article>
 
@@ -60,5 +69,6 @@
 			<div class="col-lg-3 col-md-3"></div>
 		</div>
 	</div>
+	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

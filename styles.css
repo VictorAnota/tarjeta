@@ -67,7 +67,7 @@ body{
 #form{
 	color: white;
 	text-align: center;
-	margin-top: 210px;
+	margin-top: 120px;
 }
 
 #form .atras{
@@ -159,6 +159,10 @@ CONTENEDOR           =
 	.col-lg-1{
 		width:8.33333333%;		
 	}
+
+	#form{
+		margin-top: 120px;
+	}
 }
 
 /***************************************************
@@ -207,6 +211,10 @@ CONTENEDOR           =
 
 	#cabeza{
 		font-size: 35px;
+	}
+
+	#form{
+		margin-top: 120px;
 	}
 }
 
@@ -258,14 +266,17 @@ CONTENEDOR           =
 	}
 	.fila_img{
 		position: relative;
-		margin: auto;
+		margin: 0px auto;
 		width: 100%;
 		height: auto;
 		clear:both;/*PARA RESPETAR LAS FILAS O COLUMNAS VACIAS dentro los elementos flotantes*/
 		display: table;
 		border-bottom: 1px solid white;
-		padding: 2px;
-		padding-left: 300px; 
+		padding-left: 220px; 
+
+	}
+	#form{
+		margin-top: 5px;
 	}
 	.fila2{
 		position: relative;
@@ -278,8 +289,10 @@ CONTENEDOR           =
 	}
 	
 	#tarjeta{
+		margin-top: 15px;
+		width: 90%;
+		margin-left: 35px;
 		height: 490px;
-		margin: 15px;
 	}
 }
 
@@ -328,6 +341,10 @@ CONTENEDOR           =
 	#img_fondo{
 		width: 50%;
 	}
+	#form{
+		margin-top: 5px;
+		margin-left: 140px;
+	}
 	.fila_img{
 		position: relative;
 		margin: auto;
@@ -337,7 +354,7 @@ CONTENEDOR           =
 		display: table;
 		border-bottom: 1px solid white;
 		padding: 2px;
-		padding-left: 230px; 
+		padding-left: 180px; 
 	}
 	.fila2{
 		position: relative;
@@ -350,8 +367,10 @@ CONTENEDOR           =
 	}
 	
 	#tarjeta{
+		width: 90%;
+		margin-top: 15px;
+		margin-left: 35px;
 		height: 490px;
-		margin: 15px;
 	}
 }
 
